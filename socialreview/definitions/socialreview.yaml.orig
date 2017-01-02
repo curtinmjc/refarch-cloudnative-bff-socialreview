@@ -110,7 +110,7 @@ x-ibm-configuration:
         tls-profile: ""
   properties:
     TARGET_HOST:
-      value: "https://apiconnect-04f18353-d06d-46ef-b34c-12e26cc4ffdd.curtinmusibmcom-cloudnative-dev.apic.mybluemix.net"
+      value: "https://apiconnect-243ab119-1c05-402c-a74c-6125122c9273.centusibmcom-cloudnative-dev.apic.mybluemix.net"
       description: ""
       encoded: false
   gateway: "datapower-gateway"

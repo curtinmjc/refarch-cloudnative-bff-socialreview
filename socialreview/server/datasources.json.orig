@@ -1,7 +1,7 @@
 {
   "review-microservice": {
     "name": "review-microservice",
-    "baseURL": "https://netflix-zuul-curtinm.mybluemix.net/socialreview-microservice/micro/review",
+    "baseURL": "https://netflix-zuul-cloudnative-dev.mybluemix.net/socialreview-microservice/micro/review",
     "crud": false,
     "connector": "rest",
     "debug": true,
@@ -9,7 +9,7 @@
       {
         "template": {
           "method": "GET",
-          "url": "https://netflix-zuul-curtinm.mybluemix.net/socialreview-microservice/micro/review",
+          "url": "https://netflix-zuul-cloudnative-dev.mybluemix.net/socialreview-microservice/micro/review",
           "headers":{
            "Authorization": ""
          },
@@ -38,7 +38,7 @@
           "options": {
             "strictSSL": false
           },
-          "url": "https://netflix-zuul-curtinm.mybluemix.net/socialreview-microservice/micro/review",
+          "url": "https://netflix-zuul-cloudnative-dev.mybluemix.net/socialreview-microservice/micro/review",
           "body": {
             "comment": "{comment}",
             "itemId": "{itemId}",
